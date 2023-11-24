@@ -12,11 +12,11 @@ path.link {
 }
 .node circle, #legend circle {
     fill: #fff;
-    stroke: steelblue;
+    stroke: darkgreen;
     stroke-width: 1.5px;
 }
 .node circle.collapsed, #legend circle.collapsed {
-    fill: lightsteelblue;
+    fill: lightgoldenrodyellow;
 }
 .node .abstract, #legend .abstract {
     font-style: italic;
@@ -29,7 +29,7 @@ path.link {
     stroke-width: 1.5px;
 }
 .node text {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Play", sans-serif;
     font-size: 14px;
 }
 .node text:hover {
