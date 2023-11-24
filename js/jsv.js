@@ -867,7 +867,7 @@ if (typeof JSV === 'undefined') {
             // Layout the tree initially and center on the root node.
             // Call visit function to set initial depth
             JSV.tree.nodes(root);
-            JSV.resetTree(root, 1);
+            JSV.resetTree(root, 3);
             JSV.update(root);
 
             //reset the style for viewer-page
@@ -1098,7 +1098,7 @@ if (typeof JSV === 'undefined') {
 
             // Set widths between levels based on maxLabelLength.
             nodes.forEach(function(d) {
-                d.y = (d.depth * 160); //maxLabelLength * 8px
+                d.y = (d.depth * 240); //maxLabelLength * 8px
                 // alternatively to keep a fixed scale one can set a fixed depth per level
                 // Normalize for fixed-depth by commenting out below line
                 // d.y = (d.depth * 500); //500px per level.
