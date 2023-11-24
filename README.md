@@ -1,6 +1,10 @@
 ### Live Demo
-https://navneethg.github.io/jsonschemaviewer/
+https://snedashkovsky.github.io/jsonschemaviewer/
 
 ### Instructions
 Write a JSON schema (refs supported) in the editor and click 'Visualize' to visualize it using a collapsible tree.
-This project as of now is simply a rip off of https://github.com/jlblcc/json-schema-viewer with reduced functionality. Will rewrite soon.
+
+### View a schema from remote file
+`https://snedashkovsky.github.io/jsonschemaviewer/?schema=<path>`  
+
+example https://snedashkovsky.github.io/jsonschemaviewer/?schema=https://raw.githubusercontent.com/cybercongress/cybernet/add_schema/schema/raw/query.json
